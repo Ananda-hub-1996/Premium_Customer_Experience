@@ -1,25 +1,20 @@
-# Premium Customer Experience — Interactive Learning Experience
+# Premium Customer Experience — Sales Image Transformation
 
-A single-page, scenario-based learning experience for the Sales Image Transformation series.
+Interactive experiential learning prototype for VIVO sales/store employees.
 
-## Flow
-ENTER → EXPERIENCE → NOTICE → APPLY
+## Concept
+This version is designed as a mini service simulation rather than a conventional MCQ. The learner:
 
-The learner moves through one continuous customer interaction with Rahul and discovers four behaviours:
-
-- UNDERSTAND — Customer Centricity
-- CONNECT — Customer Relation
-- HELP — Solution Orientation
-- STAY — Resolution Management
-
-## Run locally
-Open `index.html` in a browser.
+1. Enters a realistic customer interaction.
+2. Chooses a conversational move.
+3. Sees Rahul react to that move.
+4. Can adapt and try another move.
+5. Discovers the underlying behaviour after experiencing the consequence.
+6. Moves through four escalating moments: Understand → Connect → Help → Stay.
+7. Selects one behaviour to practise in the next customer interaction.
 
 ## GitHub Pages
-Push `index.html`, `style.css`, and `script.js` to the repository root, then enable GitHub Pages from Settings → Pages → Deploy from branch.
+Upload `index.html`, `style.css`, and `script.js` to a GitHub repository and enable GitHub Pages under Settings → Pages.
 
-## Notes
-- No external libraries or dependencies.
-- Responsive for desktop and mobile.
-- Current version is a standalone web experience and does not send SCORM/xAPI completion data to an LMS.
-- The visual store scene is CSS-built placeholder art; final branded illustrations can be added later.
+## Tracking
+This is currently a standalone web experience. It does not send SCORM/xAPI completion data to an LMS.
