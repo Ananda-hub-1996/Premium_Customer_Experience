@@ -1,14 +1,25 @@
-# Premium Customer Experience — Sales Image Transformation
+# Premium Customer Experience — Interactive Learning Experience
 
-Prototype interactive scenario-based learning experience.
+A single-page, scenario-based learning experience for the Sales Image Transformation series.
 
-## Files
-- index.html
-- style.css
-- script.js
-- assets/ (for final illustrations/icons)
+## Flow
+ENTER → EXPERIENCE → NOTICE → APPLY
+
+The learner moves through one continuous customer interaction with Rahul and discovers four behaviours:
+
+- UNDERSTAND — Customer Centricity
+- CONNECT — Customer Relation
+- HELP — Solution Orientation
+- STAY — Resolution Management
+
+## Run locally
+Open `index.html` in a browser.
 
 ## GitHub Pages
-Upload all files to a GitHub repository, then enable GitHub Pages from Settings → Pages, using the main branch and root folder.
+Push `index.html`, `style.css`, and `script.js` to the repository root, then enable GitHub Pages from Settings → Pages → Deploy from branch.
 
-This prototype is a linked web experience and does not currently send SCORM/xAPI completion data to the LMS.
+## Notes
+- No external libraries or dependencies.
+- Responsive for desktop and mobile.
+- Current version is a standalone web experience and does not send SCORM/xAPI completion data to an LMS.
+- The visual store scene is CSS-built placeholder art; final branded illustrations can be added later.
